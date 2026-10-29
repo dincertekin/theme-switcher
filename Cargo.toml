@@ -1,0 +1,29 @@
+[package]
+name = "theme-switcher"
+version = "0.1.0"
+edition = "2024"
+description = "Automatic dark/light mode for Windows, based on sunrise and sunset at your location."
+license = "MIT"
+repository = "https://github.com/dincertekin/theme-switcher"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.62.2", features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_System_Registry",
+    "Win32_System_SystemInformation",
+    "Win32_System_Threading",
+    "Win32_System_WinRT",
+    "Devices_Geolocation",
+    "Foundation",
+] }
+
+# The full-year, minute-by-minute tests are slow unoptimized.
+[profile.test]
+opt-level = 3
+
+[profile.release]
+opt-level = "z"
+lto = true
+strip = true

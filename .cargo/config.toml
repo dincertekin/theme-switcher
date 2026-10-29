@@ -1,0 +1,7 @@
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
+
+# Bundle the C runtime into the exe, so it starts on a fresh Windows install
+# without the Visual C++ Redistributable.
+[target.'cfg(all(windows, target_env = "msvc"))']
+rustflags = ["-C", "target-feature=+crt-static"]
