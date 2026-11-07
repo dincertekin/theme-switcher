@@ -1,15 +1,30 @@
-# theme-switcher
+<h1 align="center">theme-switcher</h1>
 
-**Windows dark mode that follows the sun.**
+<p align="center">
+  <a href="https://github.com/dincertekin/theme-switcher/releases/latest"><img src="https://img.shields.io/github/v/release/dincertekin/theme-switcher?color=111827" alt="Latest release"></a>
+  <a href="https://github.com/dincertekin/theme-switcher/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/dincertekin/theme-switcher/build.yml?label=build" alt="Build"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111827" alt="MIT license"></a>
+  <img src="https://img.shields.io/badge/Windows%2010%20·%2011-111827?logo=windows" alt="Windows 10 and 11">
+  <img src="https://img.shields.io/badge/built%20with-Rust-111827?logo=rust" alt="Built with Rust">
+</p>
+
+<p align="center">
+  <b>Windows dark mode that follows the sun.</b><br>
+  Light at sunrise, dark at sunset, wherever you are. One tiny exe: run it once and forget it.
+</p>
+
+<p align="center">
+  <a href="https://github.com/dincertekin/theme-switcher/releases/latest"><b>Download</b></a> ·
+  <a href="#install">Install</a> ·
+  <a href="#how-it-works">How it works</a> ·
+  <a href="#uninstall">Uninstall</a>
+</p>
+
+---
 
 Light theme at sunrise and dark theme at sunset, based on where you actually
 are. It's one small exe with no window, tray icon or settings. Run it once and
 forget about it.
-
-[![build](https://github.com/dincertekin/theme-switcher/actions/workflows/build.yml/badge.svg)](https://github.com/dincertekin/theme-switcher/actions/workflows/build.yml)
-[![release](https://img.shields.io/github/v/release/dincertekin/theme-switcher)](https://github.com/dincertekin/theme-switcher/releases/latest)
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![platform: windows](https://img.shields.io/badge/platform-windows-0078D6?logo=windows&logoColor=white)](https://github.com/dincertekin/theme-switcher)
 
 ## Why
 
