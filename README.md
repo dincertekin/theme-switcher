@@ -1,10 +1,11 @@
 <h1 align="center">theme-switcher</h1>
 
 <p align="center">
-  <a href="https://github.com/dincertekin/theme-switcher/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/download-dark.svg"><img src="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/download-light.svg" alt="Download the latest release" height="28"></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/windows-dark.svg"><img src="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/windows-light.svg" alt="Windows 10 and 11" height="28"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/rust-dark.svg"><img src="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/rust-light.svg" alt="Rust" height="28"></picture>
-  <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/mit-dark.svg"><img src="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/mit-light.svg" alt="MIT license" height="28"></picture></a>
+  <a href="https://github.com/dincertekin/theme-switcher/releases/latest"><img src="https://img.shields.io/github/v/release/dincertekin/theme-switcher?color=111827" alt="Latest release"></a>
+  <a href="https://github.com/dincertekin/theme-switcher/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/dincertekin/theme-switcher/build.yml?label=build" alt="Build"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111827" alt="MIT license"></a>
+  <img src="https://img.shields.io/badge/Windows%2010%20·%2011-111827?logo=windows" alt="Windows 10 and 11">
+  <img src="https://img.shields.io/badge/built%20with-Rust-111827?logo=rust" alt="Built with Rust">
 </p>
 
 <p align="center">
